@@ -44,7 +44,7 @@ function App() {
       ]
     },
     {
-      company: 'Mphasis',
+      company: 'First Republic Bank',
       position: 'Software Engineer',
       duration: 'October 2021 - April 2024',
       location: 'Bangalore, India',
@@ -60,21 +60,21 @@ function App() {
 
   const projects = [
     {
-      title: 'Smart Metering Analytics Dashboard',
+      title: 'Powergenie',
       description: 'IoT-based real-time analytics platform for smart meters with data visualization and monitoring capabilities.',
-      tech: ['React.js', 'Node.js', 'MongoDB', 'Kafka'],
+      tech: ['React.js', 'Node.js', 'Express.js', 'PostgrSQL', 'Kafka'],
       features: ['Real-time data processing', 'Interactive dashboards', 'Alert system', 'Data export functionality']
     },
     {
-      title: 'Banking Transaction System',
-      description: 'Secure financial transaction processing system with advanced security features and audit trails.',
-      tech: ['TypeScript', 'Nest.js', 'PostgreSQL', 'Docker'],
+      title: 'Wealth Connect',
+      description: 'Secure wealth management platform with advanced security features and audit trails.',
+      tech: ['React.js', 'TypeScript', 'Nest.js', 'MSSQL', 'Snowflake', 'Docker', 'Microservices'],
       features: ['Secure transactions', 'Audit logging', 'Role-based access', 'Compliance reporting']
     },
     {
-      title: 'Enterprise API Gateway',
-      description: 'Microservices architecture with API gateway for managing banking and IoT service communications.',
-      tech: ['Express.js', 'Docker', 'Kubernetes', 'Vault'],
+      title: 'Enterprise Financial Gateway',
+      description: 'Microservices architecture with API gateway for managing financial services.',
+      tech: ['Typescript', 'Nest.js', 'Snowflake', 'Docker', 'Kubernetes', 'Vault', 'Microservices'],
       features: ['Load balancing', 'Authentication', 'Rate limiting', 'Service discovery']
     }
   ];
@@ -344,8 +344,12 @@ function App() {
                       </ul>
                     </div>
                     <div className="lg:w-1/3 flex justify-center">
-                      <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg">
-                        <Building2 size={48} className="text-white" />
+                      <div className="w-32 h-32 flex items-center justify-center">
+                        {index === 0 ? (
+                          <img src="https://cdn.bitrefill.com/content/cn/b_rgb%3AFFFFFF%2Cc_pad%2Ch_800%2Cw_800/v1561500805/reliance.webp" alt="Reliance Logo" className="w-32 h-32 object-contain" />
+                        ) : (
+                          <img src="https://newsblaze.com/wp-content/uploads/2023/05/first-republic-bank.jpg" alt="First Republic Bank Logo" className="w-32 h-32 object-contain" />
+                        )}
                       </div>
                     </div>
                   </div>
@@ -465,7 +469,7 @@ function App() {
                     <a href="https://www.linkedin.com/in/santanu-mohanty/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center hover:bg-white/20 transition-colors">
                       <Linkedin className="text-white" size={24} />
                     </a>
-                    <a href="https://github.com/SantanuMohanty95" className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center hover:bg-white/20 transition-colors">
+                    <a href="https://github.com/mohanty-santanu" className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center hover:bg-white/20 transition-colors">
                       <Github className="text-white" size={24} />
                     </a>
                   </div>
