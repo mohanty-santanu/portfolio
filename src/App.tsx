@@ -32,25 +32,25 @@ function App() {
   const experiences = [
     {
       company: 'Jio Platforms Limited',
-      position: 'Software Engineer',
+      position: 'Senior Software Engineer',
       duration: 'April 2024 - Present',
       location: 'Bangalore, India',
       domain: 'IoT & Smart Metering',
       highlights: [
         'Developing IoT solutions for smart metering systems',
         'Working with real-time data processing and analytics',
-        'Building scalable backend services with Node.js and Nest.js',
+        'Building scalable backend services with Node.js and Express.js',
         'Implementing secure data management solutions'
       ]
     },
     {
-      company: 'First Republic Bank',
-      position: 'Software Engineer',
+      company: 'Mphasis',
+      position: 'Associate Software Engineer',
       duration: 'October 2021 - April 2024',
       location: 'Bangalore, India',
       domain: 'Banking & Financial Services',
       highlights: [
-        'Developed banking applications using React.js and Node.js',
+        'Developed banking applications using React.js, Node.js and Nest.js',
         'Worked on secure financial transaction processing systems',
         'Implemented database solutions with PostgreSQL and MSSQL',
         'Collaborated on enterprise-level financial software solutions'
@@ -348,7 +348,7 @@ function App() {
                         {index === 0 ? (
                           <img src="https://cdn.bitrefill.com/content/cn/b_rgb%3AFFFFFF%2Cc_pad%2Ch_800%2Cw_800/v1561500805/reliance.webp" alt="Reliance Logo" className="w-32 h-32 object-contain" />
                         ) : (
-                          <img src="https://newsblaze.com/wp-content/uploads/2023/05/first-republic-bank.jpg" alt="First Republic Bank Logo" className="w-32 h-32 object-contain" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSglmpjHjJOvqJvfPwC5lsrjkbZoZwiXsYw&s" alt="Mphasis logo" className="w-32 h-32 object-contain" />
                         )}
                       </div>
                     </div>
